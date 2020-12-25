@@ -13,8 +13,7 @@ namespace Ajhs.Infra.Repositories
 
         public UsuarioRepository() 
         {
-            string filepath = "/home/daniela/Downloads/ajhs.json";  
-            Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", filepath);
+            Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", "/home/daniela/Downloads/ajhs.json");
             _fireStoreDb = FirestoreDb.Create("ajhs-299719"); 
         }
 
