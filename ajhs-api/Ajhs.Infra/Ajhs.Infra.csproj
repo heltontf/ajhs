@@ -3,6 +3,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Google.Cloud.Firestore" Version="2.3.0"/>
+    <PackageReference Include="Google.Cloud.Firestore" Version="2.3.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ajhs.Domain\Ajhs.Domain.csproj" />
   </ItemGroup>
 </Project>
