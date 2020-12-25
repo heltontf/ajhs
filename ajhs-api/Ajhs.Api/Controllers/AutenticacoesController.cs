@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Ajhs.Domain.Interfaces;
 
 namespace Ajhs.Api.Controllers
 {
@@ -10,9 +11,18 @@ namespace Ajhs.Api.Controllers
     [Route("autenticacoes")]
     public class AutenticacoesController : ControllerBase
     {
-        [HttpGet]
-        public IActionResult Get()
+        private readonly IUsuarioRepository _usuarioRepository;
+
+        public AutenticacoesController(IUsuarioRepository usuarioRepository)
         {
+            _usuarioRepository = usuarioRepository;
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Get()
+        {
+            await _usuarioRepository.teste();
+
             return Ok("Teste");
         }
     }

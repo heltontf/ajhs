@@ -1,8 +1,31 @@
 {
   "version": 2,
-  "dgSpecHash": "NwgE/hLl17xtSzcqF/bdnZUPhNLHKq9okK8VE5nv5ZnpioZ5MR5XuLDKTSNKcZ614D8KEg07y06QulKLDer3KQ==",
+  "dgSpecHash": "J5zcy9/W90Xr2yVZwHjs63QcpYj/R1+LGMQ6fRL3xHkdDvbvc31cefkyS4uFJdl3GgPchDWGROVN0Ysq1gueJg==",
   "success": true,
   "projectFilePath": "/home/daniela/Documentos/dev/ajhs/ajhs-api/Ajhs.IoC/Ajhs.IoC.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/daniela/.nuget/packages/google.api.commonprotos/2.2.0/google.api.commonprotos.2.2.0.nupkg.sha512",
+    "/home/daniela/.nuget/packages/google.api.gax/3.2.0/google.api.gax.3.2.0.nupkg.sha512",
+    "/home/daniela/.nuget/packages/google.api.gax.grpc/3.2.0/google.api.gax.grpc.3.2.0.nupkg.sha512",
+    "/home/daniela/.nuget/packages/google.api.gax.grpc.grpccore/3.2.0/google.api.gax.grpc.grpccore.3.2.0.nupkg.sha512",
+    "/home/daniela/.nuget/packages/google.apis/1.48.0/google.apis.1.48.0.nupkg.sha512",
+    "/home/daniela/.nuget/packages/google.apis.auth/1.48.0/google.apis.auth.1.48.0.nupkg.sha512",
+    "/home/daniela/.nuget/packages/google.apis.core/1.48.0/google.apis.core.1.48.0.nupkg.sha512",
+    "/home/daniela/.nuget/packages/google.cloud.firestore/2.3.0/google.cloud.firestore.2.3.0.nupkg.sha512",
+    "/home/daniela/.nuget/packages/google.cloud.firestore.v1/2.2.0/google.cloud.firestore.v1.2.2.0.nupkg.sha512",
+    "/home/daniela/.nuget/packages/google.longrunning/2.1.0/google.longrunning.2.1.0.nupkg.sha512",
+    "/home/daniela/.nuget/packages/google.protobuf/3.13.0/google.protobuf.3.13.0.nupkg.sha512",
+    "/home/daniela/.nuget/packages/grpc.auth/2.31.0/grpc.auth.2.31.0.nupkg.sha512",
+    "/home/daniela/.nuget/packages/grpc.core/2.31.0/grpc.core.2.31.0.nupkg.sha512",
+    "/home/daniela/.nuget/packages/grpc.core.api/2.31.0/grpc.core.api.2.31.0.nupkg.sha512",
+    "/home/daniela/.nuget/packages/microsoft.bcl.asyncinterfaces/1.0.0/microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
+    "/home/daniela/.nuget/packages/microsoft.extensions.dependencyinjection/5.0.1/microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
+    "/home/daniela/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "/home/daniela/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/home/daniela/.nuget/packages/system.collections.immutable/1.4.0/system.collections.immutable.1.4.0.nupkg.sha512",
+    "/home/daniela/.nuget/packages/system.linq.async/4.0.0/system.linq.async.4.0.0.nupkg.sha512",
+    "/home/daniela/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/home/daniela/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+  ],
   "logs": []
 }

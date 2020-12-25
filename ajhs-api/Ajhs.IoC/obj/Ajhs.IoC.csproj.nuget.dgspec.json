@@ -4,14 +4,14 @@
     "/home/daniela/Documentos/dev/ajhs/ajhs-api/Ajhs.IoC/Ajhs.IoC.csproj": {}
   },
   "projects": {
-    "/home/daniela/Documentos/dev/ajhs/ajhs-api/Ajhs.IoC/Ajhs.IoC.csproj": {
+    "/home/daniela/Documentos/dev/ajhs/ajhs-api/Ajhs.Domain/Ajhs.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/daniela/Documentos/dev/ajhs/ajhs-api/Ajhs.IoC/Ajhs.IoC.csproj",
-        "projectName": "Ajhs.IoC",
-        "projectPath": "/home/daniela/Documentos/dev/ajhs/ajhs-api/Ajhs.IoC/Ajhs.IoC.csproj",
+        "projectUniqueName": "/home/daniela/Documentos/dev/ajhs/ajhs-api/Ajhs.Domain/Ajhs.Domain.csproj",
+        "projectName": "Ajhs.Domain",
+        "projectPath": "/home/daniela/Documentos/dev/ajhs/ajhs-api/Ajhs.Domain/Ajhs.Domain.csproj",
         "packagesPath": "/home/daniela/.nuget/packages/",
-        "outputPath": "/home/daniela/Documentos/dev/ajhs/ajhs-api/Ajhs.IoC/obj/",
+        "outputPath": "/home/daniela/Documentos/dev/ajhs/ajhs-api/Ajhs.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/daniela/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,133 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/daniela/Documentos/dev/ajhs/ajhs-api/Ajhs.Infra/Ajhs.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/daniela/Documentos/dev/ajhs/ajhs-api/Ajhs.Infra/Ajhs.Infra.csproj",
+        "projectName": "Ajhs.Infra",
+        "projectPath": "/home/daniela/Documentos/dev/ajhs/ajhs-api/Ajhs.Infra/Ajhs.Infra.csproj",
+        "packagesPath": "/home/daniela/.nuget/packages/",
+        "outputPath": "/home/daniela/Documentos/dev/ajhs/ajhs-api/Ajhs.Infra/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/daniela/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/daniela/Documentos/dev/ajhs/ajhs-api/Ajhs.Domain/Ajhs.Domain.csproj": {
+                "projectPath": "/home/daniela/Documentos/dev/ajhs/ajhs-api/Ajhs.Domain/Ajhs.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Google.Cloud.Firestore": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/daniela/Documentos/dev/ajhs/ajhs-api/Ajhs.IoC/Ajhs.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/daniela/Documentos/dev/ajhs/ajhs-api/Ajhs.IoC/Ajhs.IoC.csproj",
+        "projectName": "Ajhs.IoC",
+        "projectPath": "/home/daniela/Documentos/dev/ajhs/ajhs-api/Ajhs.IoC/Ajhs.IoC.csproj",
+        "packagesPath": "/home/daniela/.nuget/packages/",
+        "outputPath": "/home/daniela/Documentos/dev/ajhs/ajhs-api/Ajhs.IoC/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/daniela/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/daniela/Documentos/dev/ajhs/ajhs-api/Ajhs.Domain/Ajhs.Domain.csproj": {
+                "projectPath": "/home/daniela/Documentos/dev/ajhs/ajhs-api/Ajhs.Domain/Ajhs.Domain.csproj"
+              },
+              "/home/daniela/Documentos/dev/ajhs/ajhs-api/Ajhs.Infra/Ajhs.Infra.csproj": {
+                "projectPath": "/home/daniela/Documentos/dev/ajhs/ajhs-api/Ajhs.Infra/Ajhs.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
