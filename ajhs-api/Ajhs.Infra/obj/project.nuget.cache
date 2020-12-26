@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "S6ZXiTYQRl9p1uyTih7s8SdwISO43pAEdB5EOOlvoT+4BUHUM7oP0h0ngsxN5xTa8zLx0y6ztoQY08FrjwxoVw==",
+  "dgSpecHash": "wPj1IGeZzAay2IxyzEjNkKgPLRJkikYscobORFVZEHIHfNgBA3BhrO3TARlhlhRBSNjA5eQCmq6Hqry0RoeWMA==",
   "success": true,
   "projectFilePath": "/home/daniela/Documentos/dev/ajhs/ajhs-api/Ajhs.Infra/Ajhs.Infra.csproj",
   "expectedPackageFiles": [
@@ -18,6 +18,8 @@
     "/home/daniela/.nuget/packages/grpc.auth/2.31.0/grpc.auth.2.31.0.nupkg.sha512",
     "/home/daniela/.nuget/packages/grpc.core/2.31.0/grpc.core.2.31.0.nupkg.sha512",
     "/home/daniela/.nuget/packages/grpc.core.api/2.31.0/grpc.core.api.2.31.0.nupkg.sha512",
+    "/home/daniela/.nuget/packages/microsoft.aspnetcore.cryptography.internal/5.0.1/microsoft.aspnetcore.cryptography.internal.5.0.1.nupkg.sha512",
+    "/home/daniela/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/5.0.1/microsoft.aspnetcore.cryptography.keyderivation.5.0.1.nupkg.sha512",
     "/home/daniela/.nuget/packages/microsoft.bcl.asyncinterfaces/1.0.0/microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
     "/home/daniela/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/home/daniela/.nuget/packages/system.collections.immutable/1.4.0/system.collections.immutable.1.4.0.nupkg.sha512",

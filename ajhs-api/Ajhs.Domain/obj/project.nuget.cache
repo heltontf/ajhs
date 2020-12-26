@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "uEl3vo72qOMm4x4L0R+jNPkpOK00ZDOiG2j7K1I+tjmGhF/n7s8xAGBmciYtSwgM19ueLumM36w+cOqSAZTUeg==",
+  "dgSpecHash": "ZsA8dhNBLT7SpgMv64IfYw8RBaYW8bq93wRDlB7TPTK/kAGad7tuvqoF0HZtDE8mcLzmB3UEXn2DFj8wMeobuA==",
   "success": true,
   "projectFilePath": "/home/daniela/Documentos/dev/ajhs/ajhs-api/Ajhs.Domain/Ajhs.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/daniela/.nuget/packages/microsoft.aspnetcore.cryptography.internal/5.0.1/microsoft.aspnetcore.cryptography.internal.5.0.1.nupkg.sha512",
+    "/home/daniela/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/5.0.1/microsoft.aspnetcore.cryptography.keyderivation.5.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

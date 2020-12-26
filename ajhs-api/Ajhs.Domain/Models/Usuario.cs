@@ -10,6 +10,11 @@ namespace Ajhs.Domain.Models
             Senha = senha;
         }
 
+        public void CriptografarSenha()
+        {
+            Senha = new Senha(Senha).ToString();
+        }
+
         public string Nome { get; private set; }
         public string Login { get; private set; }
         public string Email { get; private set; }

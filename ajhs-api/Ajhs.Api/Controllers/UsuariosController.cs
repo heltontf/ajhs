@@ -31,6 +31,8 @@ namespace Ajhs.Api.Controllers
         {
             var usuario = new Usuario(model.Nome, model.Login, model.Email, model.Senha);
 
+            usuario.CriptografarSenha();
+
             await _usuarioRepository.Incluir(usuario);
 
             return Created($"usuarios/{usuario.Login}", usuario);

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "J5zcy9/W90Xr2yVZwHjs63QcpYj/R1+LGMQ6fRL3xHkdDvbvc31cefkyS4uFJdl3GgPchDWGROVN0Ysq1gueJg==",
+  "dgSpecHash": "BMp4Gy2ff5d5lHIibTFUNijPzCnp0WxGdQAx8haKPaKd1glHTdlRC2rbAVh3s9j7CJduxJCTiwJKLH44Z+8I9w==",
   "success": true,
   "projectFilePath": "/home/daniela/Documentos/dev/ajhs/ajhs-api/Ajhs.IoC/Ajhs.IoC.csproj",
   "expectedPackageFiles": [
@@ -18,6 +18,8 @@
     "/home/daniela/.nuget/packages/grpc.auth/2.31.0/grpc.auth.2.31.0.nupkg.sha512",
     "/home/daniela/.nuget/packages/grpc.core/2.31.0/grpc.core.2.31.0.nupkg.sha512",
     "/home/daniela/.nuget/packages/grpc.core.api/2.31.0/grpc.core.api.2.31.0.nupkg.sha512",
+    "/home/daniela/.nuget/packages/microsoft.aspnetcore.cryptography.internal/5.0.1/microsoft.aspnetcore.cryptography.internal.5.0.1.nupkg.sha512",
+    "/home/daniela/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/5.0.1/microsoft.aspnetcore.cryptography.keyderivation.5.0.1.nupkg.sha512",
     "/home/daniela/.nuget/packages/microsoft.bcl.asyncinterfaces/1.0.0/microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
     "/home/daniela/.nuget/packages/microsoft.extensions.dependencyinjection/5.0.1/microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
     "/home/daniela/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
