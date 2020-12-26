@@ -48,20 +48,5 @@ namespace Ajhs.Infra.Repositories
                 Senha = usuario.Senha
             });
         }
-
-        public async Task teste()
-        {
-            CollectionReference colRef = _fireStoreDb.Collection("usuarios"); 
-            
-            var usuario = new Usuario(string.Empty, "Helton Faria", "heltontf", "helton.faria@outlook.com.br", "123456");
-
-            await colRef.AddAsync(new UsuarioDbModel()
-            {
-                Nome = usuario.Nome,
-                Login = usuario.Login,
-                Email = usuario.Email,
-                Senha = usuario.Senha
-            });  
-        }
     }
 }

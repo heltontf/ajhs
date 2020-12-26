@@ -21,8 +21,6 @@ namespace Ajhs.Api.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            await _usuarioRepository.teste();
-
             return Ok("Teste");
         }
     }
