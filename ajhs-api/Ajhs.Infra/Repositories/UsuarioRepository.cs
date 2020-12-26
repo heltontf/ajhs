@@ -26,11 +26,11 @@ namespace Ajhs.Infra.Repositories
 
             var documento = snapshot.Documents.FirstOrDefault();
 
-            if (documento.Exists)
+            if (documento != null && documento.Exists)
             {
                 var usuario = documento.ConvertTo<UsuarioDbModel>();
 
-                return new Usuario(documento.Id, usuario.Nome, usuario.Login, usuario.Email, usuario.Senha);
+                return new Usuario(usuario.Nome, usuario.Login, usuario.Email, usuario.Senha);
             }
 
             return default(Usuario);
